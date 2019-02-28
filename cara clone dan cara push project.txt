@@ -1,0 +1,18 @@
+Cara clone :
+1.Tentukan dimana folder anda akan menyimpan cloning 
+2.Setelah mendapatkan folder yang ingin dimasukan,klik kanan terhadap folder dan klik "GIT bash here"
+3.Akan muncul windows baru dan ketik "git clone (linkclone)"
+	contoh link clone : https://github.com/dandungjn/JAVA.git
+4.Setelah itu tunggu lah sampai proses download selesai jika download sudah selesai file yang tadi di clone akan ada di folder tempat anda menyimpan clone.
+
+Cara push :
+1.Buat repository baru dengan nama sesuai dengan nama projek yang akan di upload. 
+2.Isi Repository Name, Description, Pilih Public supaya projek yang sudah kita upload bisa di akses oleh semua orang.
+3.Klik kanan folder yang ingin anda push dan klik "GIT bash here" dan akan ada pop up
+5.Ketik :
+	 1.$ git init
+	 2.$ git add *
+	 3.$ git commit -m "komentarkalian"
+	 4.$ git remote add origin namaalamatgitygdibuat(diambil dari ssh/html)
+	 5.$ git push origin master
+6.Data anda pun sudah terpush/upload :)!
